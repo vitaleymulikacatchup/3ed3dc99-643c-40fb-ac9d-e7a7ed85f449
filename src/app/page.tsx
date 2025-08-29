@@ -54,8 +54,7 @@ export default function Home() {
       <CentralFAQ
         items={[
           { title: "What is MEMECOIN?", content: "A playful cryptocurrency for fun and investment." },
-          { title: "How do I buy it?", content: "Follow our simple steps above." },
-          // Additional FAQs...
+          { title: "How do I buy it?", content: "Follow our simple steps above." }
         ]}
       />
       <FooterBase
@@ -63,7 +62,7 @@ export default function Home() {
         logoWidth={150}
         logoHeight={50}
         columns={[
-          { title: "Links", items: [ { label: "Home", onClick: () => {} }, ... ] },
+          { title: "Links", items: [ { label: "Home", onClick: () => {} }, { label: "About", onClick: () => {} }, { label: "Contact", onClick: () => {} } ] },
           // Additional footer items...
         ]}
         copyrightText="© 2023 MEMECOIN POP"
