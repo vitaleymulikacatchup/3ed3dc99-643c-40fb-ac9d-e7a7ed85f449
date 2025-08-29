@@ -7,7 +7,6 @@ import TextGridTokenomics from '@/components/sections/layouts/tokenomics/TextGri
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterBase from '@/components/footer/FooterBase';
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import { LucideIcon } from 'lucide-react';
 
 const navItems = [
   { name: "Hero", id: "#hero" },
@@ -40,7 +39,7 @@ export default function Home() {
         items={[
           { title: "Step 1", description: "Get your wallet ready!" },
           { title: "Step 2", description: "Buy MEMECOIN with ease!" },
-          { title: "Step 3", description: "Participate in our community!")
+          { title: "Step 3", description: "Participate in our community!" }
         ]}
       />
       <TextGridTokenomics
