@@ -1,5 +1,5 @@
 "use client";
-import { NavbarLayoutFloatingInline } from '@/components/navigation/NavbarLayoutFloatingInline';
+import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import BentoStepSimple from '@/components/bento/BentoStepSimple';
